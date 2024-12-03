@@ -18,7 +18,7 @@ export WRT_BRANCH=openwrt-23.05
 
 export WRT_TEST=false
 
-export GITHUB_WORKSPACE=/home/teslav/CloseWRT-CI
+export GITHUB_WORKSPACE=$PWD
 
 export WRT_DATE=$(TZ=UTC-8 date +"%y.%m.%d_%H.%M.%S")
 
